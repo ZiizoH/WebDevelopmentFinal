@@ -1,0 +1,37 @@
+#homePageContainer {
+    border: 2px solid black;
+}
+
+#navBar {
+    border: 1px solid black;
+}
+
+#mainBody {
+    background-color: rgb(242, 223, 223);
+}
+
+#searchBard {
+    background-color: blue;
+    border: 2px solid black;
+}
+
+#resultsBar {
+    background-color: green;
+    border: 2px solid black;
+}
+
+#checkForAvailableCars {
+    border: 0px;
+    background-color: white;
+}
+
+#newReservationSearchHomepage {
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+}
+#checkForAvailableCars{
+    border: 1px solid green;
+} 

@@ -1,0 +1,45 @@
+#searchCriteriaBox{
+    border: 2px solid red;
+}
+
+#resultsBox{
+    border: 2px solid blue;
+}
+
+.form-check-label{ 
+    font-size: small;
+}
+#activeFilters {
+    display: flex;
+    flex-direction: row;     /* horizontal */
+    align-items: center;     /* vertical alignment */
+    gap: 8px;                /* space between filters */
+    flex-wrap: wrap;         /* wrap to next line if needed */
+    align-items: center;
+     align-content: center;
+
+}
+#filterButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 3x 12px;
+    border-radius: 20px;
+
+    background-color: #6c757d; /* Bootstrap secondary */
+    color: white;
+
+    font-size: 0.85rem;
+    font-weight: 500;
+
+    border: none;
+    cursor: pointer;
+
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#searchResults{
+    display: flex;
+    flex-direction: column;
+}
